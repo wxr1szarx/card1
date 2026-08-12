@@ -1,0 +1,170 @@
+{
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    font-family: Arial, sans-serif;
+
+    background:
+        radial-gradient(circle at top, #fff 0%, #ffeaf2 45%, #ffd3e1 100%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 430px;
+
+    text-align: center;
+}
+
+h1 {
+    color: #e83e6f;
+
+    margin-bottom: 5px;
+
+    font-size: 28px;
+}
+
+.sub {
+    color: #777;
+
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.card {
+    position: relative;
+
+    width: 100%;
+    max-width: 360px;
+
+    height: 560px;
+
+    margin: auto;
+
+    border-radius: 25px;
+
+    overflow: hidden;
+
+    background: white;
+
+    box-shadow:
+        0 15px 40px rgba(0,0,0,0.18);
+}
+
+/* เนื้อหาด้านใน /
+
+.secret {
+    width: 100%;
+    height: 100%;
+
+    padding: 25px;
+
+    background: #fff;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.secret h2 {
+    color: #e83e6f;
+
+    margin: 10px 0;
+}
+
+.secret p {
+    line-height: 1.7;
+
+    color: #555;
+}
+
+/ รูปแบบโพลารอยด์ /
+
+.polaroid {
+    background: white;
+
+    padding: 10px 10px 25px;
+
+    width: 190px;
+
+    box-shadow:
+        0 5px 15px rgba(0,0,0,0.15);
+
+    transform: rotate(-3deg);
+
+    margin-bottom: 10px;
+}
+
+.polaroid img {
+    display: block;
+
+    width: 100%;
+    height: 150px;
+
+    object-fit: cover;
+}
+
+/ QR /
+
+.qr {
+    margin-top: 10px;
+
+    padding: 8px;
+
+    background: white;
+
+    border-radius: 10px;
+
+    box-shadow:
+        0 3px 10px rgba(0,0,0,0.12);
+}
+
+.qr img {
+    display: block;
+
+    width: 130px;
+    height: 130px;
+}
+
+.scan {
+    font-size: 13px;
+
+    margin-top: 8px;
+}
+
+/ แผ่นขูด /
+
+#scratch {
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    touch-action: none;
+
+    cursor: crosshair;
+}
+
+/ ข้อความด้านล่าง */
+
+.hint {
+    margin-top: 18px;
+
+    color: #888;
+
+    font-size: 13px;
+}
